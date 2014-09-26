@@ -152,7 +152,7 @@ function validateEmail($email)
 # Envoi un courrier avec un codage correct de To et Subject
 # Les en-têtes complémentaires ne sont pas gérés
 
-function sendEmail( $to, $subject, $body, $headers, $param)
+function sendEmail( $to, $subject, $body, $headers)
 {
 
   mb_internal_encoding("UTF-8");
